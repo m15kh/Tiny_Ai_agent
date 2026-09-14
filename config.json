@@ -1,0 +1,8 @@
+{
+  "model": "google/gemma-4-E4B-it",
+  "vllm": {
+    "trust_remote_code": true,
+    "dtype": "auto",
+    "gpu_memory_utilization": 0.9
+  }
+}

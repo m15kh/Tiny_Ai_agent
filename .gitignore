@@ -1,0 +1,45 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Packaging and coverage output
+build/
+dist/
+*.egg-info/
+.eggs/
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs and local runtime output
+*.log
+logs/
+tmp/
+temp/
+
+# Local model and framework caches
+.cache/
+cache/
+hf_cache/
+model_cache/
+models/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
